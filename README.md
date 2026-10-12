@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![YesPlayMusic](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![YesPlayMusic](images/preview.png)](https://github.com/Swift-Tech-Co/YesPlayMusic)
 
 ## 全新版本
 
@@ -37,7 +37,6 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## 📦️ 安装
 
-
 访问本项目的 Releases
 页面下载安装包。
 
@@ -59,21 +58,21 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 本项目的 Demo (https://music.qier222.com) 就是部署在 Vercel 上的网站。
 
-[![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://www.swifttechco.com)
+[![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://github.com/Swift-Tech-Co/YesPlayMusic)
 
 1. 部署网易云 API，详情参见 Binaryify/NeteaseCloudMusicApi
    。你也可以将 API 部署到 Vercel。
 
 2. 点击本仓库右上角的 Fork，复制本仓库到你的 GitHub 账号。
 
-3. 点击仓库的 Add File，选择 Create new file，输入 `vercel.json`，将下面的内容复制粘贴到文件中，并将 `https://www.swifttechco.com 替换为你刚刚部署的网易云 API 地址：
+3. 点击仓库的 Add File，选择 Create new file，输入 `vercel.json`，将下面的内容复制粘贴到文件中，并将 `https://github.com/Swift-Tech-Co/YesPlayMusic 替换为你刚刚部署的网易云 API 地址：
 
 ```json
 {
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://www.swifttechco.com"
+      "destination": "https://github.com/Swift-Tech-Co/YesPlayMusic"
     }
   ]
 }
@@ -96,7 +95,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 2. 克隆本仓库
 
 ```sh
-git clone --recursive https://www.swifttechco.com
+git clone --recursive https://github.com/Swift-Tech-Co/YesPlayMusic
 ```
 
 3. 安装依赖
@@ -108,10 +107,10 @@ yarn install
 
 4. （可选）使用 Nginx 反向代理 API，将 API 路径映射为 `/api`，如果 API 和网页不在同一个域名下的话（跨域），会有一些 bug。
 
-5. 复制 `/.env.example` 文件为 `/.env`，修改里面 `VUE_APP_NETEASE_API_URL` 的值为网易云 API 地址。本地开发的话可以填写 API 地址为 `https://www.swifttechco.com 地址为 `https://www.swifttechco.com API，可以填写 API 地址为 `/api`。
+5. 复制 `/.env.example` 文件为 `/.env`，修改里面 `VUE_APP_NETEASE_API_URL` 的值为网易云 API 地址。本地开发的话可以填写 API 地址为 `https://github.com/Swift-Tech-Co/YesPlayMusic 地址为 `https://github.com/Swift-Tech-Co/YesPlayMusic API，可以填写 API 地址为 `/api`。
 
 ```
-VUE_APP_NETEASE_API_URL=https://www.swifttechco.com
+VUE_APP_NETEASE_API_URL=https://github.com/Swift-Tech-Co/YesPlayMusic
 ```
 
 6. 编译打包
@@ -152,7 +151,7 @@ docker run -d --name YesPlayMusic -p 80:80 yesplaymusic
 docker-compose up -d
 ```
 
-YesPlayMusic 地址为 `https://www.swifttechco.com
+YesPlayMusic 地址为 `https://github.com/Swift-Tech-Co/YesPlayMusic
 
 ## ⚙️ 部署至 Replit
 
@@ -161,7 +160,7 @@ YesPlayMusic 地址为 `https://www.swifttechco.com
 2. 在 Replit shell 中运行以下命令
 
 ```sh
-bash <(curl -s -L https://www.swifttechco.com)
+bash <(curl -s -L https://github.com/Swift-Tech-Co/YesPlayMusic)
 ```
 
 3. 首次运行成功后，只需点击绿色按钮 `Run` 即可再次运行
@@ -179,7 +178,7 @@ cd /home/runner/${REPL_SLUG}/music && yarn install && yarn run build
 1. 打包 Electron 需要用到 Node.js 和 Yarn。可前往 Node.js 官网 下载安装包。安装 Node.js
    后可在终端里执行 `npm install -g yarn` 来安装 Yarn。
 
-2. 使用 `git clone --recursive https://www.swifttechco.com 克隆本仓库到本地。
+2. 使用 `git clone --recursive https://github.com/Swift-Tech-Co/YesPlayMusic 克隆本仓库到本地。
 
 3. 使用 `yarn install` 安装项目依赖。
 
@@ -201,8 +200,6 @@ cd /home/runner/${REPL_SLUG}/music && yarn install && yarn run build
 运行本项目
 
 ```shell
-
-
 
 ## ☑️ Todo
 
@@ -237,7 +234,7 @@ API 源代码来自 Binaryify/NeteaseCloudMusicApi
 ![explore][explore-screenshot]
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.swifttechco.com -->
+<!-- https://github.com/Swift-Tech-Co/YesPlayMusic -->
 
 [album-screenshot]: images/album.png
 [artist-screenshot]: images/artist.png
@@ -263,13 +260,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/YesPlayMusic
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
