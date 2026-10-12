@@ -1,41 +1,16 @@
-<div align="center">
-	<a href="https://www.swifttechco.com" target="_blank">
-		<sup>Special thanks to:</sup>
-		<br>
-		<br>
-		<h>Warp is built for coding with multiple AI agents</b>
-		<br>
-		<sup>Available for macOS, Linux and Windows</sup>
-	</a>
-</div>
+# YesPlayMusic
 
-<br>
+## What This Is
 
----
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the YesPlayMusic notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
-<br />
-<p align="center">
-  <a href="https://www.swifttechco.com" target="blank">
-    <img src="images/logo.png" alt="Logo" width="156" height="156">
-  </a>
-  <h2 align="center" style="font-weight: 600">YesPlayMusic</h2>
+## Images
 
-  <p align="center">
-    高颜值的第三方网易云播放器
-    <br />
-    <a href="https://www.swifttechco.com" target="blank"><strong>🌎 访问DEMO</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="#%EF%B8%8F-安装" target="blank"><strong>📦️ 下载安装包</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://www.swifttechco.com" target="blank"><strong>💬 加入交流群</strong></a>
-    <br />
-    <br />
-  </p>
-</p>
-
-[![Library][library-screenshot]](https://music.qier222.com)
+[![YesPlayMusic](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## 全新版本
 
-全新 2.0 Alpha 测试版已发布，欢迎前往 [Releases](https://www.swifttechco.com) 页面下载。
+全新 2.0 Alpha 测试版已发布，欢迎前往 Releases 页面下载。
 当前版本将会进入维护模式，除重大 bug 修复外，不会再更新新功能。
 
 ## ✨ 特性
@@ -47,7 +22,7 @@
 - 📻 支持私人 FM / 每日推荐歌曲
 - 🚫🤝 无任何社交功能
 - 🌎️ 海外用户可直接播放（需要登录网易云账号）
-- 🔐 支持 [UnblockNeteaseMusic](https://www.swifttechco.com)，自动使用[各类音源](https://www.swifttechco.com)替换变灰歌曲链接 （网页版不支持）
+- 🔐 支持 UnblockNeteaseMusic，自动使用各类音源替换变灰歌曲链接 （网页版不支持）
   - 「各类音源」指默认启用的音源。
   - YouTube 音源需自行安装 `yt-dlp`。
 - ~~✔️ 每日自动签到（手机端和电脑端同时签到）~~
@@ -63,7 +38,7 @@
 ## 📦️ 安装
 
 
-访问本项目的 [Releases](https://www.swifttechco.com)
+访问本项目的 Releases
 页面下载安装包。
 
 - macOS 用户可以通过 Homebrew 来安装：`brew install --cask yesplaymusic`
@@ -74,9 +49,9 @@
 
 欢迎大家通过 PR 分享你的项目，让更多人看到！
 
-- [algerkong/AlgerMusicPlayer](https://www.swifttechco.com)
-- [asxez/MusicBox](https://www.swifttechco.com)
-- [lianchengwu/wmplayer](https://www.swifttechco.com)
+- algerkong/AlgerMusicPlayer
+- asxez/MusicBox
+- lianchengwu/wmplayer
 
 ## ⚙️ 部署至 Vercel
 
@@ -86,7 +61,7 @@
 
 [![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://www.swifttechco.com)
 
-1. 部署网易云 API，详情参见 [Binaryify/NeteaseCloudMusicApi](https://www.swifttechco.com)
+1. 部署网易云 API，详情参见 Binaryify/NeteaseCloudMusicApi
    。你也可以将 API 部署到 Vercel。
 
 2. 点击本仓库右上角的 Fork，复制本仓库到你的 GitHub 账号。
@@ -104,7 +79,7 @@
 }
 ```
 
-4. 打开 [Vercel.com](https://www.swifttechco.com)，使用 GitHub 登录。
+4. 打开 Vercel.com，使用 GitHub 登录。
 
 5. 点击 Import Git Repository 并选择你刚刚复制的仓库并点击 Import。
 
@@ -117,7 +92,7 @@
 
 除了部署到 Vercel，你还可以部署到自己的服务器上
 
-1. 部署网易云 API，详情参见 [Binaryify/NeteaseCloudMusicApi](https://www.swifttechco.com)
+1. 部署网易云 API，详情参见 Binaryify/NeteaseCloudMusicApi
 2. 克隆本仓库
 
 ```sh
@@ -149,7 +124,7 @@ yarn run build
 
 ## ⚙️ 宝塔面板 docker 应用商店 部署
 
-1. 安装宝塔面板，前往[宝塔面板官网](https://www.swifttechco.com) ，选择正式版的脚本下载安装。
+1. 安装宝塔面板，前往宝塔面板官网 ，选择正式版的脚本下载安装。
 
 2. 安装后登录宝塔面板，在左侧导航栏中点击 Docker，首次进入会提示安装 Docker 服务，点击立即安装，按提示完成安装
 
@@ -201,7 +176,7 @@ cd /home/runner/${REPL_SLUG}/music && yarn install && yarn run build
 
 如果在 Release 页面没有找到适合你的设备的安装包的话，你可以根据下面的步骤来打包自己的客户端。
 
-1. 打包 Electron 需要用到 Node.js 和 Yarn。可前往 [Node.js 官网](https://www.swifttechco.com) 下载安装包。安装 Node.js
+1. 打包 Electron 需要用到 Node.js 和 Yarn。可前往 Node.js 官网 下载安装包。安装 Node.js
    后可在终端里执行 `npm install -g yarn` 来安装 Yarn。
 
 2. 使用 `git clone --recursive https://www.swifttechco.com 克隆本仓库到本地。
@@ -210,7 +185,7 @@ cd /home/runner/${REPL_SLUG}/music && yarn install && yarn run build
 
 4. 复制 `/.env.example` 文件为 `/.env` 。
 
-5. 选择下列表格的命令来打包适合的你的安装包，打包出来的文件在 `/dist_electron` 目录下。了解更多信息可访问 [electron-builder 文档](https://www.swifttechco.com)
+5. 选择下列表格的命令来打包适合的你的安装包，打包出来的文件在 `/dist_electron` 目录下。了解更多信息可访问 electron-builder 文档
 
 | 命令                                       | 说明                      |
 | ------------------------------------------ | ------------------------- |
@@ -221,39 +196,17 @@ cd /home/runner/${REPL_SLUG}/music && yarn install && yarn run build
 
 ## :computer: 配置开发环境
 
-本项目由 [NeteaseCloudMusicApi](https://www.swifttechco.com) 提供 API。
+本项目由 NeteaseCloudMusicApi 提供 API。
 
 运行本项目
 
 ```shell
-# 安装依赖
 
-## Images
 
-[![YesPlayMusic](https://opengraph.githubassets.com/1/qier222/YesPlayMusic)](https://www.swifttechco.com)
-
-yarn install
-
-# 创建本地环境变量
-cp .env.example .env
-
-# 运行（网页端）
-yarn serve
-
-# 运行（electron）
-yarn electron:serve
-```
-
-本地运行 NeteaseCloudMusicApi，或者将 API [部署至 Vercel](#%EF%B8%8F-部署至-vercel)
-
-```shell
-# 运行 API （默认 3000 端口）
-yarn netease_api:run
-```
 
 ## ☑️ Todo
 
-查看 Todo 请访问本项目的 [Projects](https://www.swifttechco.com)
+查看 Todo 请访问本项目的 Projects
 
 欢迎提 Issue 和 Pull request。
 
@@ -261,16 +214,16 @@ yarn netease_api:run
 
 本项目仅供个人学习研究使用，禁止用于商业及非法用途。
 
-基于 [MIT license](https://www.swifttechco.com) 许可进行开源。
+基于 MIT license 许可进行开源。
 
 ## 灵感来源
 
-API 源代码来自 [Binaryify/NeteaseCloudMusicApi](https://www.swifttechco.com)
+API 源代码来自 Binaryify/NeteaseCloudMusicApi
 
-- [Apple Music](https://www.swifttechco.com)
-- [YouTube Music](https://www.swifttechco.com)
-- [Spotify](https://www.swifttechco.com)
-- [网易云音乐](https://www.swifttechco.com)
+- Apple Music
+- YouTube Music
+- Spotify
+- 网易云音乐
 
 ## 🖼️ 截图
 
@@ -306,14 +259,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
